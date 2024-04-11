@@ -1,0 +1,132 @@
+/*
+CODE TO TRACK LAYOUT
+
+.rows {
+    border: 2px solid red;
+    padding-right: 50px;
+}
+
+.columns {
+    border: 2px solid green;
+}
+
+.container {
+    border: 5px solid blue;
+}
+
+.picture {
+    border: 2px solid red;
+}
+*/
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(226, 226, 226));
+}
+
+.image-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-container{
+    margin-left: 1rem;
+    font-size: 20px;
+    padding: 85px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: white;
+}
+
+.container-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wtf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 15px 85px 15px 85px;
+    /* border: 2px solid black; */
+    flex-flow: column;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product_image {
+    width: 100%;
+    height: auto;
+    width: 350px;
+    height: 350px;  
+    position: sticky;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    cursor: pointer;
+}
+
+.whitespace-container{
+    padding: 3.7rem;
+}
+  
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .desc-container {
+      display: none !important;
+    }
+    .container-desc{
+        display: flex !important;
+    }
+  }
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (min-width: 601px) {
+    .container-desc{
+        display: none !important;
+    }
+  }
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.bottom-description {
+    padding-right: 50px;
+}
+
+.email-me {
+    font-size: 1rem;
+}
+
+.click-the-button {
+    color: rgb(73, 73, 73);
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}

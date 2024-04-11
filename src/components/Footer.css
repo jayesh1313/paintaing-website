@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+}
+
+.footer-container{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    border: 2px solid red;
+}
+
+.rows{
+    padding: 0.5rem;
+}
+
+.footer--pin{
+    /* margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f7894a;
+    border: 2px solid blue; */
+    font-size: 1rem;
+    padding: 1rem;
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    color: #fff;
+}
+
+
+.mark:hover, .mark:visited, .mark:link, .mark:active {
+    color: #f7894a;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.fab{
+    color: #f7894a;
+}

@@ -1,0 +1,40 @@
+.about{
+    padding: 3rem;
+}
+
+/*
+img{
+    
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 10rem;
+    padding-bottom: 3rem;
+}
+*/
+
+.profile-photo-1 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 300px;
+    padding-bottom: 3rem;
+    filter: drop-shadow(1px 1px 4px #3f3f3f);
+}
+
+.about-paragraph{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+@media only screen and (min-width: 798px) {
+    .about-paragraph {
+      margin-right: 10rem;
+      margin-left: 10rem;
+    }
+  }
